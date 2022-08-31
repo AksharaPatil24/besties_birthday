@@ -1,0 +1,54 @@
+.body_backgorund 
+{
+    background-image:url('hOye.gif');
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+#myCanvas
+{
+    border-width: 10px;
+    background-color: white;
+    border-style: ridge;
+    border-color: darkviolet;
+}
+
+h3{
+    font-size: 60px;
+    font-weight: 300;
+    font-family: "Sofia", sans-serif;
+}
+
+#bestie {
+    color:rgb(10, 10, 10);
+    font-size: 70px;
+    font-family: "Sofia", sans-serif;
+}
+h4 {
+    font-size: 50px;
+    font-weight: 300;
+    font-family: monospace;
+    text-shadow: 3px 3px 3px #750505;
+}
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #07a6b4;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button:hover {background-color: #1bb291}
+  
+  .button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Birthday wishes</title>
+<link rel="stylesheet" href="style.css">
+<script src="fabric.js"></script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
+</head>
+<body class="body_backgorund" onload="new_image()">
+	<center>
+		<br><br>
+		<!--- Create canvas --->
+		<canvas width=" 600" height="500" id="myCanvas"></canvas>
+		<br>
+		<!--- Create Bootstrap button --->
+		<h3 class="font-effect-fire">Happy Birthday<br><br><h4 class="font-effect-outline">My Dear</h4><br><span id="bestie" class="font-effect-neon"> Bestie<br>Bhargavi</span></h3>
+		<br>
+		<br>
+		<button type="button" class="button" onclick="playSound()">Please, Click here </button>
+		<br><br><br><br><br>
+		<audio id="myAudio">
+			<source src="TERA BIRTHDAY AAYA HAI _ Funzoa Funny Hindi Birthday Song by Mimi Teddy _ Birthday Wish for friends.mp3" type="audio/mp3">
+			<source src="TERA BIRTHDAY AAYA HAI _ Funzoa Funny Hindi Birthday Song by Mimi Teddy _ Birthday Wish for friends.mp3" type="audio/mpeg">
+		  </audio>
+		
+	</center>
+	<audio id="myAudio" src="TERA BIRTHDAY AAYA HAI _ Funzoa Funny Hindi Birthday Song by Mimi Teddy _ Birthday Wish for friends.mp3"></audio>
+	<script src="main.js"></script>
+</body>
+</html>
